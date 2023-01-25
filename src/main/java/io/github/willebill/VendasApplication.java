@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class VendasApplication {
 
-// Utilizando o Bean
-//    @Autowired
-//    @Qualifier("applicationName")
-//    private String applicationName;
+    // Utilizando o Bean
+    //    @Autowired
+    //    @Qualifier("applicationName")
+    //    private String applicationName;
 
     // Utilizando o application.properties
     @Value("${application.name}")
